@@ -1,1 +1,65 @@
+h1,h2,h3 {
+    font-style: italic;
+    font-size: xx-large;
+    color: darkblue;
+}
 
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+table, th, td{
+    border: 1px solid darkgoldenrod;
+    text-align: center;
+}
+th,td{
+    padding: 10px;
+    color: darkblue;
+}
+
+
+a:link, a:visited {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 25px;
+    text-align: center;
+    background-color: lightblue;
+}
+a:hover, a:active {
+    background-color: blue;
+}
+
+
+input[type=text],[type=email] {
+    width: 25%;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    color: black;
+}
+label{
+    font-size: large;
+    color: darkblue;
+}
+input[type=text]:focus,[type=email]:focus{
+    background-color: lightblue;
+}
+
+
+body {
+    background-color: aliceblue;
+}
+
+
+button {
+    background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 20px 25px;
+}
+
+button:hover {
+    background-color: blue;
+}
