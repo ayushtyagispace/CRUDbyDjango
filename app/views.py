@@ -3,6 +3,9 @@ from app.models import Employee
 from app.forms import EmployeeForm
 
 # Create your views here.
+def home(request):
+    return render(request,'home.html')
+
 def emp(request):  
     if request.method == "POST":  
         form = EmployeeForm(request.POST)  
